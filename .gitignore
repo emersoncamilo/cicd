@@ -19,7 +19,6 @@
 *.bak
 
 # Dependency files
-go.sum
 vendor/
 
 # Editor or IDE-specific files
