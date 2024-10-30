@@ -1,0 +1,39 @@
+# Ignore Go binaries and build artifacts
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+*.o
+*.a
+
+# Go cache and build folders
+/pkg/
+/out/
+
+# Logs and temporary files
+*.log
+*.tmp
+/tmp/
+*.bak
+
+# Dependency files
+vendor/
+
+# Editor or IDE-specific files
+.vscode/
+.idea/
+*.iml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Database and docker data
+postgres-data/
+*.env
+
+# Test artifacts
+*.test
+*.coverprofile
